@@ -1,0 +1,62 @@
+.how-card {
+  width: 493px;
+  height: 485px;
+  border-radius: 16px;
+  overflow: hidden;
+  position: relative;
+  background-color: #ffffff;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.how-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.12);
+}
+
+.how-card-image {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+/* Icon repositioned to lower-right on image */
+.how-card-overlay {
+  position: absolute;
+  bottom: 170px; /* Adjust this depending on card height and layout */
+  left: 20px;
+  z-index: 2;
+}
+
+/* Updated icon style */
+.how-card-icon {
+  width: 120px;
+  height: 43px;
+  border-radius: 67px;
+  object-fit: contain;
+}
+
+.how-card-content {
+  padding: 1.5rem;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.how-card-content h3 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: -10px;
+  color: #202020;
+}
+
+.how-card-content p {
+  font-size: 16px;
+  color: #555555;
+  line-height: 1.6;
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Nutrition",
+    "description": "Evidence supports the use of a whole food, plant-predominant diet to prevent, treat and reverse chronic illness.",
+    "image": "/images/cimg1_Nutrition.png",
+    "icon": "/images/cm1.png"
+  },
+  {
+    "title": "Physical activity",
+    "description": "Regular physical activity is key to managing weight, improving mental health, and reducing risk of chronic disease.",
+    "image": "/images/cimg2_PhysicalActivity.png",
+    "icon": "/images/cm2.png"
+  },
+  {
+    "title": "Restorative sleep",
+    "description": "Consistent, quality sleep is essential for cognitive function and physical health.",
+    "image": "/images/cimg3_Restroativesleep.png",
+    "icon": "/images/cm3.png"
+  },
+  {
+    "title": "Stress management",
+    "description": "Effective stress management techniques are crucial for mental well-being and overall health.",
+    "image": "/images/cimg4_Stressmanagement.png",
+    "icon": "/images/cm4.png"
+  },
+  {
+    "title": "Social connection",
+    "description": "Strong social connections are associated with a lower risk of many chronic diseases and enhanced mental health.",
+    "image": "/images/cimg5_Socialconnection.png",
+    "icon": "/images/cm5.png"
+  },
+  {
+    "title": "Substance abuse",
+    "description": "Avoiding tobacco, limiting alcohol use, and abstaining from harmful substances are vital for long-term health.",
+    "image": "/images/cimg6_Substanceabuse.png",
+    "icon": "/images/cm6.png"
+  }
+]
