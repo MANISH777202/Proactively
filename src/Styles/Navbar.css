@@ -1,16 +1,15 @@
 /* Navbar wrapper */
 .navbar {
-  width: 100%;
+  width: 100% 1280px;
   background-color: white;
   position: relative;
   border-bottom: 1px solid #eaeaea;
-  margin: 0 auto;
 }
 
 /* Container for centering content */
 .navbar__container {
-  max-width: 1280px;
-  margin: 0 auto;
+  max-width: 100% 1280px;
+
   height: 92px;
   border-bottom: 1px solid #eaeaea;
   display: flex;
@@ -25,10 +24,12 @@
 }
 
 .navbar__logo {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
   width: 127.17px;
   height: 40.55px;
-  margin-left: 80px;
-  margin-top: 26px;
 }
 
 .navbar__brand {
@@ -49,10 +50,7 @@
   display: flex;
   list-style: none;
   align-items: center;
-  width: 706px;
-  height: 44px;
-  margin-top: 24px;
-  margin-left: 513px;
+  justify-content: flex-end;
   border-radius: 106px;
   background: #ffffff26;
   gap: 1.5rem;
